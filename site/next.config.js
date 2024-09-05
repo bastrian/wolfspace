@@ -2,15 +2,15 @@
 
 const nextConfig = {
   env: {
-    name: 'Kasm Technologies',
-    description: 'The official store for Kasm supported workspaces.',
+    name: 'Wolf Spacehub',
+    description: 'Storage for Wolf Docker Stuff.',
     icon: '/img/logo.svg',
-    listUrl: 'https://registry.kasmweb.com/',
-    contactUrl: 'https://kasmweb.com/support',
+    listUrl: 'https://bastrian.github.com/wolfspace/',
+    contactUrl: 'https://github.com/bastrian/wolfspace/issues',
   },
   reactStrictMode: true,
   swcMinify: true,
-  basePath: '/kasm-registry/1.0',
+  basePath: '/wolfspace/1.0',
   trailingSlash: true,
   images: {
     unoptimized: true,
